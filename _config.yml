@@ -1,1 +1,32 @@
-theme: jekyll-theme-cayman
+# Site Metadata
+title: iip-easi
+email: ""
+description: Windows 10 Developer
+description_detail: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://iip-easi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social Info
+github_username: iip-easi
+
+# Build Settings
+excerpt_separator: ---
+paginate: 30
+paginate_path: "/blog/page:num"
+markdown: kramdown
+theme: minima
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Content Template
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      categories: "post"
+      permalink: "/:categories/:title.html"
