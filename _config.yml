@@ -1,25 +1,40 @@
-# Site Metadata
-title: iip-easi
-email: ""
+title: "dotnet 职业技术学院"
 description: Windows 10 Developer
-description_detail: ""
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://iip-easi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author: "dotnet 职业技术学院"
+post_author: "dotnet 职业技术学院"
+logo: /static/img/avatar.png
+github: https://github.com/easiwin
+about: Windows 10 Developer
+mail: walterlv@outlook.com
 
-# Social Info
-github_username: iip-easi
+baseurl: ""
+url: "https://easiwin.github.io/"
 
-# Build Settings
-excerpt_separator: ---
-paginate: 30
-paginate_path: "/blog/page:num"
+allowsearch: true
+
+analytics:
+  google: UA-108101550-1
+disqus:
+  name: lindexi
+
+share:
+  twitter_username: lindexi_gd
+
+
+enableTags: true
+tagarray: []
+
+excerpt_separator: "<!--more-->"
+paginate: 15
+per_page: 15
+paginate_path: "/blog/page:num/"
 markdown: kramdown
-theme: minima
-highlighter: rouge
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+gems: [jekyll-paginate, jekyll-gist]
+
+# Content Collection
+collections:
+  articles:
+    output: true
 
 # Content Template
 defaults:
@@ -28,5 +43,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      categories: "post"
-      permalink: "/:categories/:title.html"
+      author: "dotnet 职业技术学院"
+      permalink: "/post/:title.html"
+  - scope:
+      path: "_articles"
+      type: "articles"
+    values:
+      layout: "post"
+      author: "dotnet 职业技术学院"
+      permalink: "/article/:title.html"

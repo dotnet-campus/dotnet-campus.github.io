@@ -1,0 +1,18 @@
+---
+layout: default
+title: 归档
+permalink: /mind/
+---
+<div class="well">
+    <div class="list-group">
+      {% for post in site.posts %}
+       <dd>
+         <div class="posts">
+           <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+           <!-- <span style="float:right">{{ post.date | date:"%Y-%m-%d" }}</span> -->
+           <div/><br />
+         </div>
+       </dd>
+      {% endfor %}
+    </div>
+</div>
