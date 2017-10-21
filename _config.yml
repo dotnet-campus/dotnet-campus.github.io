@@ -1,10 +1,10 @@
 title: "dotnet 职业技术学院"
-description: Windows 10 Developer
+description: ""
 author: "dotnet 职业技术学院"
 post_author: "dotnet 职业技术学院"
 logo: /static/img/avatar.png
 github: https://github.com/easiwin
-about: Windows 10 Developer
+about: ""
 mail: walterlv@outlook.com
 
 baseurl: ""
@@ -13,7 +13,7 @@ url: "https://easiwin.github.io/"
 allowsearch: true
 
 analytics:
-  google: UA-108101550-1
+  none: ""
 disqus:
   name: lindexi
 

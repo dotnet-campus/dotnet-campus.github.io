@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 朋友和收藏
+title: 学院
 permalink: /friends/
 ---
 

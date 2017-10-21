@@ -1,4 +1,5 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108101550-1"></script>
+{% if site.analytics.google %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -6,3 +7,4 @@
 
   gtag('config', '{{ site.analytics.google }}');
 </script>
+{% endif %}
