@@ -51,12 +51,13 @@
                 {% else %}
                   <span class="time">{{ site.author }}</span>
                 {% endif %}
-                <span class="desktop-only">|</span>
               </span>
               <br class="mobile-only"/>
               {% if page.date_published %}
+                <span class="desktop-only">|</span>
                 <span class="time">{{ page.date_published | date: "%Y-%m-%d %H:%M" }} - {{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
               {% else if page.date %}
+                <span class="desktop-only">|</span>
                 <span class="time">{{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
               {% endif %}
               <br class="mobile-only"/>
