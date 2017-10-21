@@ -45,20 +45,22 @@
             {% endif %}
             </div>
             <p class="info">
-              <span class="author">
-                {% if page.author %}
-                  <span class="time">{{ page.author }}</span>
-                {% else %}
-                  <span class="time">{{ site.author }}</span>
-                {% endif %}
-              </span>
+              {% if page.author %}
+                <span class="time">{{ page.author }}</span>
+              {% else %}
+                <span class="time">{{ site.author }}</span>
+              {% endif %}
               <br class="mobile-only"/>
               {% if page.date_published %}
-                <span class="desktop-only">|</span>
-                <span class="time">{{ page.date_published | date: "%Y-%m-%d %H:%M" }} - {{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
+                <span class="time">
+                  <span class="desktop-only">|</span>
+                  <span class="time">{{ page.date_published | date: "%Y-%m-%d %H:%M" }} - {{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
+                </span>
               {% else if page.date %}
-                <span class="desktop-only">|</span>
-                <span class="time">{{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
+                <span class="time">
+                  <span class="desktop-only">|</span>
+                  <span class="time">{{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
+                </span>
               {% endif %}
               <br class="mobile-only"/>
               {% if page.categories.size > 0 %}
