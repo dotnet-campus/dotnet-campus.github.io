@@ -1,8 +1,9 @@
-div.force-line-break {
+div {
     word-break: break-word;
 }
-code {
-    word-break: break-word;
+pre>code {
+    overflow-x: auto;
+    white-space: pre;
 }
 .mobile-only {
     display: none;
@@ -69,7 +70,7 @@ code {
 }
 @media (max-width: 767px) {
     .header-panel>.container>.row>.site-info-area {
-        background-color: #284888;
+        background-color: #1a4c7a;
     }
     .row-picture>img {
         width: 32px;
