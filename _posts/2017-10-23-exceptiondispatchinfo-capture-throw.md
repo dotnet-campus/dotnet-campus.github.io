@@ -12,6 +12,8 @@ original_linl: https://walterlv.github.io/post/exceptiondispatchinfo-capture-thr
 
 本文介绍 `ExceptionDispatchInfo`，专门用于重新抛出异常。它在 .NET Framework 4.5 中首次引入，并原生在 .NET Core 和 .NET Standard 中得到支持。
 
+<!--more-->
+
 ---
 
 先探索为什么需要重新抛出异常，再了解如何最佳地重新抛出异常。如果你只希望了解 `ExceptionDispatchInfo`，请直接从以下导航中点击跳转到最后一节。
