@@ -3,7 +3,7 @@ title: "使用 Task.Wait()？立刻死锁（deadlock）"
 author: 吕毅
 date: 2017-10-27 23:54:46 +0800
 categories: dotnet csharp
-original_linl: https://walterlv.github.io/post/deadlock-in-task-wait.html
+original_link: https://walterlv.github.io/post/deadlock-in-task-wait.html
 ---
 
 最近读到一篇异步转同步的文章，发现其中没有考虑到异步转同步过程中发生的死锁问题，所以特地在本文说说异步转同步过程中的死锁问题。
