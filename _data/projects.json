@@ -1,23 +1,23 @@
 [
 	{
 		"name": "MSTest Enhancer",
-		"image": "/mstest-enhancer/icon.png",
+		"image": "/mstest-enhancer/logo.png",
 		"url": "https://github.com/easiwin/MSTestEnhancer",
 		"date": "2018-2-10",
-		"tags": ["UWP"]
+		"tags": ["dotnet","dotnet-standard","csharp","uwp","wpf"]
 	},
 	{
 		"name": "Markdown Mail",
 		"image": "/static/projects/placeholder.jpg",
 		"url": "https://github.com/walterlv/markdown-mail",
 		"date": "2017-9-24",
-		"tags": ["UWP"]
+		"tags": ["uwp"]
 	},
 	{
 		"name": "splender",
 		"image": "/static/projects/placeholder.jpg",
 		"url": "#",
 		"date": "2017-8-15",
-		"tags": ["TypeScript","React"]
+		"tags": ["type-script","react"]
 	}	
 ]
