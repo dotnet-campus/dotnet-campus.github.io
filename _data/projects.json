@@ -12,5 +12,12 @@
 		"url": "#",
 		"date": "2017-8-15",
 		"tags": ["TypeScript","React"]
+	},
+	{
+		"name": "MSTest Enhancer",
+		"image": "/mstest-enhancer/icon.png",
+		"url": "https://github.com/easiwin/MSTestEnhancer",
+		"date": "2018-2-10",
+		"tags": ["WPF","UWP","dotnet-core","mstest","dotnet-standard"]
 	}
 ]
