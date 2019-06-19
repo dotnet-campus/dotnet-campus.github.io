@@ -3,12 +3,12 @@ description: ""
 author: "dotnet 职业技术学院"
 post_author: "dotnet 职业技术学院"
 logo: /static/img/avatar.png
-github: https://github.com/easiwin
+github: https://github.com/dotnet-campus/
 about: ""
 mail: walterlv@outlook.com
 
 baseurl: ""
-url: "https://easiwin.github.io/"
+url: "https://dotnet-campus.github.io/"
 
 allowsearch: true
 
