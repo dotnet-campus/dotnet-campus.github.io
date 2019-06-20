@@ -26,7 +26,7 @@ permalink: /friends/
 
  - [唐宋元明清2188 - 博客园](https://www.cnblogs.com/kybs0 )
  
-   无名氏
+   WPF/MVC
 
  - [niuyanjie's blog 一个菜鸟的成长历程](http://niuyanjie.gitee.io/blog/ ) 
 
