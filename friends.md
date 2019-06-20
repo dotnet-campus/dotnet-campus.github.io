@@ -8,6 +8,10 @@ permalink: /friends/
 
    微软最具价值专家
 
+ - [lindexi https://blog.lindexi.com/](https://blog.lindexi.com/ ) 
+
+   最年轻的微软最具价值专家
+
  - [泰琪 https://gandalfliang.github.io/](https://gandalfliang.github.io/)
 
    对d3d有很深的研究
@@ -22,7 +26,7 @@ permalink: /friends/
 
  - [唐宋元明清2188 - 博客园](https://www.cnblogs.com/kybs0 )
  
-   余冬 前 IBM 工程师 
+   WPF/MVC
 
  - [niuyanjie's blog 一个菜鸟的成长历程](http://niuyanjie.gitee.io/blog/ ) 
 
