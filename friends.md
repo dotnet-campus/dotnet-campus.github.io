@@ -10,7 +10,7 @@ permalink: /friends/
 
  - [lindexi https://blog.lindexi.com/](https://blog.lindexi.com/ ) 
 
-   最年轻的微软最具价值专家
+   微软最具价值专家
 
  - [泰琪 https://gandalfliang.github.io/](https://gandalfliang.github.io/)
 
@@ -57,3 +57,5 @@ permalink: /friends/
  - [胡承老司机](https://huchengv5.github.io/ )
 
  - [天龙](https://getandplay.github.io/ )
+
+ - [王文平](https://blog.csdn.net/trista_wang )
